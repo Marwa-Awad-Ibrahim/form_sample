@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    <h2>Here you can view and edit your address</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Dr.">
+
+            <label for="fname">First name</label>
+            <input type="text" name="name" id="fname" placeholder="Peter">
+
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname" placeholder="Muster">
+
+            <p>Gender</p>
+            <label>
+                <input type="radio" name="gender" value="m"> "M"
+            </label>
+            <label>
+                <input type="radio" name="gender" value="f" checked> "F"
+            </label>
+
+            <p>Language</p>
+            <label>
+                <input type="radio" name="lang" value="D"> "DE"
+            </label>
+            <label>
+                <input type="radio" name="lang" value="Fr"> "FR"
+            </label>
+            <label>
+                <input type="radio" name="lang" value="IT"> "IT"
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact data</legend>
+            
+            <label for="tel">Telephone</label>
+            <input type="tel" id="tel" name="tele" required>
+
+            <label for="mob">Mobile</label>
+            <input type="tel" id="mob" name="Mtele" placeholder="optional">
+
+            <label for="hom">Home</label>
+            <input type="tel" id="hom" name="htele" placeholder="optional">
+
+            <label for="fax">Fax</label>
+            <input type="tel" id="fax" name="fax" placeholder="optional">
+
+            <label for="mail1">Mail 1</label>
+            <input type="email" id="mail1" name="mail" required>
+
+            <label for="mail2">Mail 2</label>
+            <input type="email" id="mail2" name="mail" placeholder="optional">
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Data</legend>
+
+            <label for="frm">Company</label>
+            <input type="text" id="frm" name="Company" required>
+
+            <label for="frm2">Additional Company</label>
+            <input type="text" id="frm2" name="Company" placeholder="optional">
+
+            <label for="hpg">Homepage</label>
+            <input type="url" id="hpg" name="hpg" placeholder="optional">
+
+            <label >Address/Home N.
+            <input type="text" id="add" name="add" placeholder="MusterStrasse">
+            <input type="number" id="no" name="no" placeholder="33"> </label>
+
+            <label for="add2">Additional Address</label>
+            <input type="text" id="add2" name="add2" placeholder="optional">
+             
+            <label for="op">P.O. Box</label>
+            <input type="text" id="op" name="opb" placeholder="optional"> 
+
+            <label >ZIP/City
+            <input type="number" id="zip" name="zip" placeholder="8800">
+            <input type="text" id="city" name="city" placeholder="Musterstadt"> </label> 
+            
+            <label >Canton/Country
+            <input type="text" id="can" name="can" placeholder="ZH">
+            <input type="text" id="country" name="country" placeholder="Switzerland"> </label> 
+             
+            <input type="submit">
+                
+
+            
+        </fieldset>
+    </form>
+</body>
+</html>
+
